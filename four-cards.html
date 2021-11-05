@@ -1,19 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang ="en">
 
 <head>
-    <title>Circle and Squares</title>
     <link rel="stylesheet" type="text/css" href="four-cards.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>Practising Flexbox
+    </title>
 </head>
 
 <body>
-<div class="container">
-    <div class="circle"></div>
-    <div class="circle colourChange"></div>
-</div>
-<div class="container">
-    <div class="circle hidden"></div>
-    <div class="square"></div>
-</div>
+<header class="header">
+    <h2 class = "lightH2">Reliable, efficient delivery</h2>
+    <h2 class = "boldH2">Powered by Technology</h2>
+    <p class = "intro">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+</header>
+
+<main class = "container">
+    <div class = "card supervisor">
+        <h3>Supervisor</h3>
+        <p class = "toolDescription">Monitors activity to identify project roadblocks</p>
+        <img class="icon" src="icon-supervisor.svg" alt="magnifying class icon">
+    </div>
+    <div class="subContainer">
+        <div class = "card teamBuilder">
+            <h3>Team Builder</h3>
+            <p class = "toolDescription">Scans our talent network to create the optimal team for your project</p>
+            <img class="icon" src="icon-team-builder.svg" alt="house icon">
+        </div>
+        <div class = "card karma">
+            <h3>Karma</h3>
+            <p class = "toolDescription">Regularly evaluates our talent to ensure quality</p>
+            <img class="icon" src="icon-karma.svg" alt="lightbulb icon">
+        </div>
+    </div>
+    <div class = "card calculator">
+        <h3>Calculator</h3>
+        <p class = "toolDescription">Uses data from past projects to provide better delivery estimates</p>
+        <img class="icon" src="icon-calculator.svg" alt="calculator icon">
+    </div>
+</main>
+
 </body>
-</html>
