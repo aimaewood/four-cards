@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.header{
+    background-color: #F7F1FD;
+    padding: 80px 35px 35px 35px;
+    margin: auto;
+    text-align: center;
+}
+.lightH2 {
+    font-weight: lighter;
+    color: #777777;
+
+}
+.boldH2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4E4E4E;
+}
+.intro{
+    color: #ABABAB;
+    font-weight: lighter;
+}
+h2 {
+    color: #666666;
+}
+h3 {
+    color: #4E4E4E;
+    font-weight: normal;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    background-color: #F7F1FD;
+    margin: 0;
+}
+.card {
+    height: 150px;
+    border-radius: 5px;
+    padding: 35px;
+    margin: 35px 35px 0 35px;
+    background-color: #FFFFFF;
+}
+.supervisor {
+    border-top: #56E1D5 solid 5px;
+}
+.teamBuilder {
+    border-top: #B60C0E solid 5px;
+}
+.karma {
+    border-top: #D8B92D solid 5px;
+}
+.calculator {
+    border-top: #3F93C4 solid 5px;
+    margin-bottom: 80px;
+}
+.icon {
+    float: right;
+}
+.toolDescription {
+    font-size: 16px;
+    color: #ABABAB;
+    padding: 10px 0 20px 0;
+    font-weight: lighter;
+}
+
+@media (min-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color: #F7F1FD;
+        margin: 0 auto;
+    }
+    .card {
+        height: 150px;
+        width: 250px;
+        margin: 20px 10px 20px 10px;
+    }
+    .intro {
+        width: 500px;
+        margin: auto;
+    }
+}
